@@ -148,7 +148,7 @@ elif st.session_state.step == 4:
 
         pdf.set_font("Arial", 'B', 16)
         pdf.set_xy(10, 20)
-        pdf.cell(140, 10, f"Mr Jaf's QLA Report for {name}", ln=True)
+        pdf.cell(140, 10, f"BMA QLA Report for {name}", ln=True)
         pdf.set_font("Arial", size=12)
         pdf.cell(200, 10, f"Current Grade: {scores[0]['current_grade']} | Target Grade: {scores[0]['target_grade']}", ln=True)
 
